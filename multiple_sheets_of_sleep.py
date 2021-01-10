@@ -16,3 +16,6 @@ for excel_file in excel_files:
     df1.to_excel(writer, sheet_name=sheet, index=False)
 
 writer.save()
+
+
+print(df1)
