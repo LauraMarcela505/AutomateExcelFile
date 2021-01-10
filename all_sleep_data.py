@@ -7,6 +7,7 @@ location = 'C:\\Users\\laura\\Desktop\\Sleep Data\\*.xls'
 excel_files = glob.glob(location)
 
 pd.set_option('display.max_rows', 91)
+# pd.set_option('display.max_columns',9)
 
 df1 = pd.DataFrame()
 
